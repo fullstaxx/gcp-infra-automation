@@ -33,10 +33,6 @@ This project demonstrates:
 
 ### Deployment (`deploy.yml`)
 
-- Automatically runs on push to `main`
+- Manually Triggered
 - Initializes Terraform and applies infrastructure
 - Pulls credentials from `GCP_CREDENTIALS_JSON` GitHub secret
-
-### Destruction (`destroy.yml`)
-
-- Manually triggered
