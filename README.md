@@ -6,7 +6,7 @@ This repository provisions and manages secrets securely in Google Cloud using In
 
 This project demonstrates:
 
-- Secure deployment of GCP Secret Manager resources
+- Secure deployment of GCP Secret Manager secrets
 - Use of Terraform for declarative infrastructure
 - CI/CD automation using GitHub Actions
 - Secure handling of secrets and credentials
@@ -16,7 +16,6 @@ This project demonstrates:
 - Creates a Secret Manager secret and stores a version (value)
 - Uses GitHub Actions to automate `terraform init`, `apply`, and `destroy`
 - Uses GitHub Secrets for credential management
-- Compatible with multi-environment structures
 
 ## Directory Structure
 
